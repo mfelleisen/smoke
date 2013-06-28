@@ -15,7 +15,7 @@
 
 (define SMOKE-IMGS
   (for/hash ([i 100]) 
-    (values i (read-bitmap (string-append (number->string i) ".png")))))
+    (values i (read-bitmap (string-append "imgs/" (number->string i) ".png")))))
 
 ;(define SMOKE-IMG (read-bitmap "smoke.png"))
 
